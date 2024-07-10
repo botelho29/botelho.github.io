@@ -1,0 +1,57 @@
+
+body {
+    background-image: url("/img/background.png");
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+.container{
+    margin: 0 auto;
+    background-color: darkgray;
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo img {
+    width: 104px;
+    height: 651,5px;
+    margin-top: 10px;
+}
+
+label {
+    display: none;
+}
+
+nav ul {
+    position: static;
+    width: 100%;
+    height: auto;
+    background-color: transparent;
+    margin-top: 10px;
+    list-style: none;
+}
+
+nav ul li {
+    padding: 20px;
+    float: left;
+    border: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: red;
+}
+
+#hamburguer {
+    display: none;
+}
+
+.corpo {
+    color: white;
+}
